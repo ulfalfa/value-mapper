@@ -1,9 +1,9 @@
 {
-  "name": "value-mapper",
-  "version": "0.0.1",
-  "description": "Utility class for mapping values to strings",
-  "main": "index.js",
-  "repository": "https://ulfalfa@github.com/ulfalfa/value-mapper.git",
-  "author": "Ulf Steinberg <ulf@steinberg-online.de>",
-  "license": "MIT"
+	"name": "us-value-mapper",
+	"version": "0.0.1",
+	"description": "Utility class for mapping values to strings",
+	"main": "index.js",
+	"repository": "https://ulfalfa@github.com/ulfalfa/value-mapper.git",
+	"author": "Ulf Steinberg <ulf@steinberg-online.de>",
+	"license": "MIT"
 }
