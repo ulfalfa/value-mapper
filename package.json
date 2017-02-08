@@ -1,9 +1,17 @@
 {
 	"name": "us-value-mapper",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Utility class for mapping values to strings",
-	"main": "index.js",
+	"main": "dist/index.js",
 	"repository": "https://ulfalfa@github.com/ulfalfa/value-mapper.git",
 	"author": "Ulf Steinberg <ulf@steinberg-online.de>",
-	"license": "MIT"
+  "scripts": {
+    "compile": "babel --presets es2015 -d dist/ src/",
+    "prepublish": "npm run compile"
+},
+	"license": "MIT",
+	"devDependencies": {
+		"babel-cli": "^6.22.2",
+		"babel-preset-es2015": "^6.22.0"
+	}
 }
